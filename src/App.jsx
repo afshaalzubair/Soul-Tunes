@@ -1,12 +1,17 @@
 import { useState } from 'react'
 import './App.css'
+import SplineScene from './components/SplineScene'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
-    <h1>Welcome to Soul Tunes</h1>
+      <div className='app'>
+        <main>
+          <SplineScene/> 
+        </main>
+      </div>
     </>
   )
 }
