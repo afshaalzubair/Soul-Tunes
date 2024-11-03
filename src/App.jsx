@@ -32,6 +32,11 @@ function App() {
           <Button className="button1" label="Click to Match!" link="" />
         </div>
 
+        <section className="team-section">
+          <h1>Meet The Team</h1>
+          <p>Here is the Soul Tunes team! We are three freshmen at UT Austin studying Computer Science. The team developed this project for HackTX 2024.</p>
+        </section>
+
       </main>
     </div>
     </>
