@@ -1,7 +1,7 @@
 import React from 'react';
 import './Button.css'; 
 
-const Button = ({ label, link, className }) => {
+const Button = ({ label, link, className, }) => {
   return (
     <a
       href={link}

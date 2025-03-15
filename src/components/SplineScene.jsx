@@ -5,7 +5,6 @@ export default function App() {
     return (
       <>
         <Spline scene="https://prod.spline.design/hrWfzQolFEEuEAqM/scene.splinecode" />
-         let element = <button onClick={ () => buttonClicked()}>Click Me</button>
       </>
     )  }
 

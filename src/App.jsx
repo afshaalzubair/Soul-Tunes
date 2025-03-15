@@ -1,18 +1,22 @@
 import './App.css';
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import {homePage} from './pages/homePage';
-import './pages/matchPage';
-import './pages/notFoundPage';
+import {HomePage} from './pages/homePage';
+import { MatchPage } from './pages/matchPage';
+import { NotFoundPage } from './pages/notFoundPage';
 
-function App() {
+
+const App = () => {
   return(
-    <Router>
-        <Routes>
-            <Route path="/" element= {<homePage/>}/>
-            <Route path="/matchPage" element={<matchPage/>}/>
-            <Route element={<notFoundPage/>}/>;;
-        </Routes>
-    </Router>
+    <>
+        <Router>
+            <Routes>
+                <Route path="/" element= {<HomePage/>}/>
+                <Route path="/matchPage" element= {<MatchPage/>}/>
+                <Route element={<NotFoundPage/>}/>
+            </Routes>
+        </Router>
+    </>
   );
-}
-export default App
+};
+
+export default App;

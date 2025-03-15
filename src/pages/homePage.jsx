@@ -4,8 +4,9 @@ import Button from '../components/Button'
 import afshaalImage from '../assets/afshaal.jpg';
 import kamilahImage from '../assets/kamilah.png';
 import joelImage from '../assets/joel.jpg';
+import { Link } from 'react-router-dom';
 
-export function homePage(){
+export function HomePage(){
   return (
     <>
       <div className="app">
@@ -32,7 +33,9 @@ export function homePage(){
             </div>
           </section>
           <div className="button-container">
-            <Button className="button1" label="Click to Match!" link="" />
+              <Link to= "/matchPage">
+                <Button className="button1" label="Click to Match!" Link to="/matchPage"/>
+              </Link>
           </div>
 
           <section className="teamheader-section">

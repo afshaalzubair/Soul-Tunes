@@ -1,0 +1,150 @@
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    position: relative;
+    width: 1440px;
+  }
+  
+  .desktop .overlap-group {
+    background-color: #d9d9d9;
+    height: 572px;
+    left: -5px;
+    position: absolute;
+    top: 0;
+    width: 1450px;
+  }
+  
+  .desktop .overlap {
+    height: 107px;
+    left: 423px;
+    position: absolute;
+    top: 30px;
+    width: 594px;
+  }
+  
+  .desktop .rectangle {
+    background-color: #d9d0d9;
+    height: 107px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 594px;
+  }
+  
+  .desktop .element-percent {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 34px;
+    width: 503px;
+  }
+  
+  .desktop .text-wrapper {
+    font-weight: 700;
+  }
+  
+  .desktop .span {
+    color: #000000;
+    font-family: "Inter", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  
+  .desktop .overlap-2 {
+    background-image: url(https://c.animaapp.com/RKQSI5hk/img/rectangle-9.svg);
+    background-size: 100% 100%;
+    height: 316px;
+    left: 152px;
+    position: absolute;
+    top: 221px;
+    width: 520px;
+  }
+  
+  .desktop .download {
+    height: 173px;
+    left: 154px;
+    object-fit: cover;
+    position: absolute;
+    top: 45px;
+    width: 212px;
+  }
+  
+  .desktop .img {
+    height: 45px;
+    left: 73px;
+    position: absolute;
+    top: 246px;
+    width: 383px;
+  }
+  
+  .desktop .overlap-3 {
+    background-image: url(https://c.animaapp.com/RKQSI5hk/img/rectangle-9.svg);
+    background-size: 100% 100%;
+    height: 316px;
+    left: 764px;
+    position: absolute;
+    top: 221px;
+    width: 520px;
+  }
+  
+  .desktop .rectangle-2 {
+    height: 45px;
+    left: 68px;
+    position: absolute;
+    top: 246px;
+    width: 383px;
+  }
+  
+  .desktop .rectangle-3 {
+    background-color: #d9d9d9;
+    height: 54px;
+    left: 173px;
+    position: absolute;
+    top: 609px;
+    width: 469px;
+  }
+  
+  .desktop .rectangle-4 {
+    background-color: #d9d9d9;
+    height: 54px;
+    left: 788px;
+    position: absolute;
+    top: 609px;
+    width: 469px;
+  }
+  
+  .desktop .rectangle-5 {
+    background-color: #d9d9d9;
+    height: 237px;
+    left: 180px;
+    position: absolute;
+    top: 706px;
+    width: 462px;
+  }
+  
+  .desktop .rectangle-6 {
+    background-color: #d9d9d9;
+    height: 237px;
+    left: 788px;
+    position: absolute;
+    top: 706px;
+    width: 462px;
+  }
+  

@@ -1,7 +1,9 @@
-export function notFoundPage() {
+export function NotFoundPage() {
     return (
         <>
+        
             <p>Page not found</p> 
         </>
     )
 }
+
